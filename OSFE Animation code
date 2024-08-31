@@ -1,0 +1,128 @@
+#Mettaur is a placeholder
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Animations>
+  <Animation loop="true" name="FirstCharacter_idle" frameDuration="140">
+    <Frame image="char/Dokja_Idle1.png"></Frame>
+    <Frame image="char/Dokja_Idle2.png"></Frame>
+    <Frame image="char/Dokja_Idle3.png"></Frame>
+    <Frame image="char/Dokja_Idle4.png"></Frame>
+    <Frame image="char/Dokja_Idle5.png"></Frame>
+    <Frame image="char/Dokja_Idle6.png"></Frame>
+    <Frame image="char/Dokja_Idle7.png"></Frame>
+    <Frame image="char/Dokja_Idle8.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_spawn" frameDuration="50">
+    <Frame image="char/Dokja_Idle1.png"></Frame>
+  </Animation>
+  
+  <Animation loop="true" name="FirstCharacter_dashing" frameDuration="100">
+    <Frame image="char/Dokja_dashing1.png"></Frame>
+    <Frame image="char/Dokja_dashing2.png"></Frame>
+    <Frame image="char/Dokja_dashing3.png"></Frame>
+    <Frame image="char/Dokja_dashing4.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_hit" frameDuration="100">
+    <Frame image="char/Dokja_hit.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_front" frameDuration="70">
+    <Frame image="char/Dokja_front.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_back" frameDuration="70">
+    <Frame image="char/Dokja_back.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_hop" frameDuration="70">
+    <Frame image="char/Dokja_hop.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_drop" frameDuration="70">
+    <Frame image="char/Dokja_drop.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast01Start" frameDuration="50">
+    <Frame image="char/Mettaur_cast01Start0.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start2.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start3.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start4.png"></Frame>
+    <Frame image="char/Mettaur_cast01Mid1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Mid2.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast01Mid" frameDuration="20">
+    <Frame image="char/Mettaur_cast01Mid2.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast01End" frameDuration="70">
+    <Frame image="char/Mettaur_cast01End1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start0.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast02Start" frameDuration="50">
+    <Frame image="char/Mettaur_cast01Start0.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start2.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start3.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start4.png"></Frame>
+    <Frame image="char/Mettaur_cast01Mid1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Mid2.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast02Mid" frameDuration="20">
+    <Frame image="char/Mettaur_cast01Mid2.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast02End" frameDuration="70">
+    <Frame image="char/Mettaur_cast01End1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start0.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast03Start" frameDuration="50">
+    <Frame image="char/Mettaur_cast01Start0.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start2.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start3.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start4.png"></Frame>
+    <Frame image="char/Mettaur_cast01Mid1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Mid2.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast03Mid" frameDuration="20">
+    <Frame image="char/Mettaur_cast01Mid2.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_cast03End" frameDuration="70">
+    <Frame image="char/Mettaur_cast01End1.png"></Frame>
+    <Frame image="char/Mettaur_cast01Start0.png"></Frame>
+  </Animation>
+  
+  <Animation loop="true" name="FirstCharacter_Down" frameDuration="40">
+    <Frame image="char/Mettaur_hit1.png"></Frame>
+    <Frame image="char/Mettaur_hit2.png"></Frame>
+    <Frame image="char/Mettaur_hit3.png"></Frame>
+  </Animation>
+  
+  <Animation loop="true" name="FirstCharacter_Downed" frameDuration="40">
+    <Frame image="char/Mettaur_spawn1.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_Death" frameDuration="40">
+    <Frame image="char/Mettaur_hit1.png"></Frame>
+    <Frame image="char/Mettaur_hit2.png"></Frame>
+    <Frame image="char/Mettaur_hit3.png"></Frame>
+  </Animation>
+  
+  <Animation loop="false" name="FirstCharacter_channel" frameDuration="20">
+    <Frame image="char/Mettaur_spawn5.png"></Frame>
+    <Frame image="char/Mettaur_spawn4.png"></Frame>
+    <Frame image="char/Mettaur_spawn3.png"></Frame>
+    <Frame image="char/Mettaur_spawn2.png"></Frame>
+    <Frame image="char/Mettaur_spawn1.png"></Frame>
+  </Animation>
+</Animations>
